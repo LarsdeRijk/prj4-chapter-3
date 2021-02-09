@@ -1,0 +1,99 @@
+@charset "UTF-8";
+.my-class {
+    color: #F4F4F4;
+    background-color: #6F8F9E;
+    border: thin solid #000000;
+    text-align: center;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    border-radius: 45px;
+}
+.boxleftonpage {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 24px;
+    margin-right: 567px;
+    margin-left: 8px;
+    background-color: #708F9E;
+    text-align: center;
+    border-width: 0mm;
+    display: inherit;
+    border-radius: 10px;
+}
+.boxbluemiddle {
+    color: #F4F4F4;
+    background-color: #708F9E;
+    border: thick solid #000000;
+    text-align: center;
+    border-radius: 60px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-right: 307px;
+    margin-left: 356px;
+    display: block;
+}
+.boxrightonpage {
+    background-color: #708F9E;
+    border-radius: 20px;
+    margin-left: 514px;
+    margin-bottom: 46px;
+    text-align: center;
+}
+body {
+    background-image: url(../../images/Concrete%20backgr.jpg);
+    background-size: cover;
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-style: normal;
+    text-align: left;
+}
+#Titlewhite {
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 517px;
+    margin-bottom: -9px;
+}
+.Textblack  {
+    color: #000000;
+}
+.footer1 {
+    background-color: #708F9E;
+    width: auto;
+    min-width: 0px;
+    max-width: none;
+    display: inherit;
+    max-height: 15cm;
+    margin-left: 32px;
+    margin-right: 33px;
+    padding-top: 0px;
+    opacity: 1;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    height: 37mm;
+}
+.Textwhite  {
+    color: #FFFFFF;
+}
+.rat2 {
+    display: block;
+    margin-left: 825px;
+    margin-top: -180px;
+    height: 42mm;
+    width: 94mm;
+    min-width: 0px;
+    border-radius: 17px;
+}
+.rat.footer {
+    background-color: #708F9E;
+    border-radius: 22px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
