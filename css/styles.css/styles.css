@@ -1,66 +1,86 @@
 @charset "UTF-8";
+* { margin: 0; padding: 0; border: 0; font-size: 100%; }
 .my-class {
     color: #F4F4F4;
     background-color: #6F8F9E;
-    border: thin solid #000000;
+    border: thin none #000000;
     text-align: center;
-    padding-top: 1em;
-    padding-right: 1em;
-    padding-left: 1em;
-    padding-bottom: 1em;
-    border-radius: 45px;
+    padding-top: 26px;
+    padding-right: 26px;
+    padding-left: 26px;
+    padding-bottom: 26px;
+    border-radius: 0px;
+    margin-top: 0px;
+    font-size: xx-large;
+    border-spacing: 0px 0px;
 }
-.boxleftonpage {
+.boxPara1 {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin-top: 24px;
-    margin-right: 567px;
-    margin-left: 8px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
     background-color: #708F9E;
     text-align: center;
     border-width: 0mm;
     display: inherit;
     border-radius: 10px;
+    margin-bottom: 20px;
+}
+.boxPara1_rat {
+    margin-left: 10px;
+    margin-top: 13px;
+    float: left;
+    padding-right: 12px;
+    border-radius: 33px;
 }
 .boxbluemiddle {
     color: #F4F4F4;
     background-color: #708F9E;
     border: thick solid #000000;
-    text-align: center;
     border-radius: 60px;
     -webkit-box-shadow: 0px 0px;
     box-shadow: 0px 0px;
-    padding-top: 12px;
+    padding-top: 15px;
     padding-bottom: 12px;
-    margin-right: 307px;
+    margin-right: 356px;
     margin-left: 356px;
     display: block;
+    margin-top: 20px;
+    text-align: center;
 }
-.boxrightonpage {
+.boxPara2 {
     background-color: #708F9E;
     border-radius: 20px;
-    margin-left: 514px;
+    margin-left: 50px;
     margin-bottom: 46px;
     text-align: center;
+    margin-right: 50px;
+    margin-top: 20px;
 }
 body {
     background-image: url(../../images/Concrete%20backgr.jpg);
     background-size: cover;
     background-clip: padding-box;
     background-repeat: no-repeat;
-    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-family: 'Source Code Pro', monospace;
     font-style: normal;
     text-align: left;
 }
 #Titlewhite {
     color: #FFFFFF;
     text-align: left;
-    margin-left: 517px;
+    margin-left: 50px;
     margin-bottom: -9px;
+    margin-top: 30px;
+    font-size: x-large;
 }
 .Textblack  {
     color: #000000;
+    font-size: x-large;
+    margin-left: 50px;
+    margin-top: 44px;
 }
 .footer1 {
     background-color: #708F9E;
@@ -69,31 +89,41 @@ body {
     max-width: none;
     display: inherit;
     max-height: 15cm;
-    margin-left: 32px;
-    margin-right: 33px;
+    margin-left: 0px;
+    margin-right: 0px;
     padding-top: 0px;
     opacity: 1;
     -webkit-box-shadow: 0px 0px;
     box-shadow: 0px 0px;
     height: 37mm;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.footer_darker {
+    background-color: #587481;
+    height: 44px;
+    margin-bottom: -24px;
 }
 .Textwhite  {
     color: #FFFFFF;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 .rat2 {
-    display: block;
-    margin-left: 825px;
-    margin-top: -180px;
-    height: 42mm;
-    width: 94mm;
-    min-width: 0px;
+    display: inline;
     border-radius: 17px;
 }
-.rat.footer {
-    background-color: #708F9E;
-    border-radius: 22px;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
+.Banner_toppage {
+    padding-top: 20px;
+    margin-left: 0px;
+    background-size: cover;
+    background-position: 41% 37%;
+    background-color: #587481;
+}
+.Banner_toppage_text {
+    text-align: center;
+    padding-bottom: 21px;
 }
