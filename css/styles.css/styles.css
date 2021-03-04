@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("../page2styles.css/v2styles.css");
 * { margin: 0; padding: 0; border: 0; font-size: 100%; }
 .my-class {
     color: #F4F4F4;
@@ -13,6 +14,8 @@
     margin-top: 0px;
     font-size: xx-large;
     border-spacing: 0px 0px;
+    margin-left: -300px;
+    margin-right: -300px;
 }
 .boxPara1 {
     -webkit-box-sizing: border-box;
@@ -53,10 +56,10 @@
 .boxPara2 {
     background-color: #708F9E;
     border-radius: 20px;
-    margin-left: 50px;
+    margin-left: 64px;
     margin-bottom: 46px;
     text-align: center;
-    margin-right: 50px;
+    margin-right: 64px;
     margin-top: 20px;
 }
 body {
@@ -85,24 +88,26 @@ body {
 .footer1 {
     background-color: #708F9E;
     width: auto;
-    min-width: 0px;
     max-width: none;
     display: inherit;
     max-height: 15cm;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 154px;
+    margin-right: -208px;
     padding-top: 0px;
     opacity: 1;
     -webkit-box-shadow: 0px 0px;
     box-shadow: 0px 0px;
-    height: 37mm;
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 49px;
+    margin-top: 41px;
 }
 .footer_darker {
     background-color: #587481;
-    height: 44px;
-    margin-bottom: -24px;
+    margin-bottom: 7px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
 }
 .Textwhite  {
     color: #FFFFFF;
@@ -111,17 +116,20 @@ body {
     padding-right: 10px;
     padding-bottom: 5px;
     padding-top: 5px;
+    width: auto;
 }
 .rat2 {
     display: inline;
     border-radius: 17px;
 }
 .Banner_toppage {
-    padding-top: 20px;
-    margin-left: 0px;
+    padding-top: 19px;
+    margin-left: -300px;
     background-size: cover;
     background-position: 41% 37%;
     background-color: #587481;
+    margin-top: -17px;
+    margin-right: -300px;
 }
 .Banner_toppage_text {
     text-align: center;
